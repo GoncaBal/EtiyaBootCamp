@@ -32,11 +32,11 @@ public class Campaign implements Entity {
         this.name = name;
     }
 
-    public int getDiscountRate() {
+    public int getDiscount() {
         return discount;
     }
 
-    public void setDiscountRate(int discount) {
+    public void setDiscount(int discount) {
         this.discount = discount;
     }
 
